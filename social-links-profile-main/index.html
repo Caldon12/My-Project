@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet"   href="./assets/fonts/static/Inter-Bold.ttf">
+  
+  <title>Frontend Mentor | Social links profile</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    body{
+  background-color: black;
+      }
+      .container{
+           padding: 20px;
+           width:100%;
+           max-width: 300px;
+           background:rgba(26, 25, 25, 0.678);
+           margin:100px auto 20px;
+           padding: 40px 30px 70px;
+           border-radius: 10px;
+           text-align: center;
+           @font-face {
+             font-family: ;
+             src: url(assets\fonts\static\Inter-Bold.ttf);
+             src: url(assets\fonts\static\Inter-Regular.ttf);
+           }
+           
+           
+
+      }
+      img{
+
+          height: 100px;
+          width:100px;
+          border-radius: 50px;
+       }
+       h1{
+           color: white;
+           /* @font-face {
+             font-family: ;
+             src: url(assets\fonts\static\Inter-Bold.ttf);
+           } */
+           font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+           font-size: 28px;
+       }
+       button{
+           background-color: rgb(44, 42, 42);
+           padding:16px;
+           border-radius: 10px;
+            width:300px;
+            margin: 5px;
+            color: white;
+            border:none;
+            font-weight: bold;
+            font-size: 15px;
+            
+
+       }
+       button.active{
+         cursor: pointer;
+         background-color: yellow;
+       }
+       button:hover:not(.active) {
+    background-color: #111;
+    cursor: pointer;
+}
+
+.active {
+    background-color: yellow;
+}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="im9"><img src="assets\images\avatar-jessica.jpeg"></div>
+    <h1>Jessica Randall</h1>
+    <h4><span style="color: rgba(164, 209, 122, 0.973); font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;font-size: 15px;">London, United Kingdom</span></h4>
+    <p><q style="color:white;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Front-end developer and avid reader</q></p>
+    <button class="active">Github</button>
+    <br>
+    <button>Frontend Mentor</button>
+    <br>
+    <button>LinkedIn</button>
+    <br>
+    <button>Twitter</button>
+    <br>
+    <button>Instagram</button>
+  </div>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Caleb Ajala</a>.
+  </div>
+</body>
+</html>
